@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #69BAE7;
+  background-image: url("C:/Users/yuriy/my_project/src/media/Background.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 30px;
+  background-size: 360px;
+}
+
+.titles{
+	margin-top: 0px;
+	padding-top: 5px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.header{
+	height: 40px;
+	width: 100%;
+	background: #FEDB67;
+}
+
+.logins {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 20px;
+}
+
+.form-button-style {
+	border: 30px solid #3A5065;
+    border-radius: 50px;
+    border-width: 35px;
+    margin: 160px 8%;
+    background: #FEDB67;
+}
+
+.style {
+	display: flex;
+	flex-direction: row;
+}
+
+.time-style {
+	margin-right: -15px;
+	font-size: 11px;
+}
+
+.checkbox-style {
+	margin-top: 7px;
+	margin-left: -40px
+}
+    
+.lists-element {
+	width: 83%;
+	margin: auto;
+}
+
+.flexbox-main {
+	margin-left: 15px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	position: relative;
+}
+
+.list {
+	margin-right: 78px;
+}
+
+.flexbox-second {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	margin-left: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+.main-style-from-input {
+ 	width: 93%;
+  	margin: 20px auto;
+  	overflow-x: hidden;
+  	margin-bottom: 25px;
+  }
